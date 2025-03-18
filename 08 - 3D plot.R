@@ -17,7 +17,22 @@ fig <- plot_ly(
                   "<br>Senior Citizen:", SeniorCitizen,
                   "<br>Partner:", Partner,
                   "<br>Dependents:", Dependents,
-                  "<br>Churn:", Churn)
+                  "<br>Churn:", Churn,
+                  "<br>Contract:", Contract,
+                  "<br>Paperless Billing:", PaperlessBilling,
+                  "<br>Payment Method:", PaymentMethod,
+                  "<br>Tenure (months):", tenure,
+                  "<br>Monthly Charges:", MonthlyCharges,
+                  "<br>Total Charges:", TotalCharges,
+                  "<br>Multiple Lines:", MultipleLines,
+                  "<br>Internet Service:", InternetService,
+                  "<br>Online Security:", OnlineSecurity,
+                  "<br>Online Backup:", OnlineBackup,
+                  "<br>Device Protection:", DeviceProtection,
+                  "<br>Tech Support:", TechSupport,
+                  "<br>Streaming TV:", StreamingTV,
+                  "<br>Streaming Movies:", StreamingMovies
+                  )
 )
 
 # Define a slider to adjust the marker opacity from 0.1 to 1 by increments of 0.1

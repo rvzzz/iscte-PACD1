@@ -7,3 +7,4 @@ library(tidyr)
 
 # 1. Carregar o dataset
 df <- read.csv("churn.csv")
+
